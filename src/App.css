@@ -1,0 +1,30 @@
+.app {
+	background-color: #EAEAEA;
+	color: #191919;
+	min-height: 100vh;
+}
+
+header {
+	background-color: #C5C5C5;
+}
+header, main {
+	padding: 1em 2em;
+	font-size: 1.2em;
+}
+header nav a:hover {
+	cursor: pointer;
+	background-color: #69C6E2;
+	text-decoration: underline;
+	transition: all 0.3s;
+}
+header nav a {
+	background-color: #A1E8FD;
+	padding: 0.2em 0.7em;
+	margin: 0em 0.3em;
+	color: #0F5164;
+	text-decoration: none;
+}
+
+main {
+	
+}
