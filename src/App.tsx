@@ -4,6 +4,7 @@ import { NavLink, Routes, Route } from 'react-router-dom'
 import Start from './components/Start'
 import Settings from './components/Settings'
 import ShowCart from './components/ShowCart'
+import SingleProduct from './components/SingleProduct'
 
 const App = () => (
 	<div className="app">
@@ -18,6 +19,7 @@ const App = () => (
 			<Routes>
 				<Route path="/settings/*" element={<Settings/>} />
 				<Route path="/cart" element={<ShowCart />} />
+				<Route path="/product/:id" element={<SingleProduct />} />
 				<Route path="/" element={<Start />} />
 			</Routes>
 		</main>

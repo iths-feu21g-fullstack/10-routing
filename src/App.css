@@ -44,3 +44,7 @@ main {
 	width: 5em;
 	height: 5em;
 }
+
+.single-product img {
+	width: 80vw;
+}
