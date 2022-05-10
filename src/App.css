@@ -24,7 +24,23 @@ header nav a {
 	color: #0F5164;
 	text-decoration: none;
 }
+header nav a.active {
+	background-color: #68A5B7;
+}
 
 main {
 	
+}
+
+.product-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.product-grid .product button {
+	display: block;
+}
+
+.cart .product img {
+	width: 5em;
+	height: 5em;
 }

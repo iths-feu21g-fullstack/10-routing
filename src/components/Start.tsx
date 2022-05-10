@@ -1,6 +1,8 @@
+import ProductGrid from './ProductGrid'
+
 const Start = () => (
 	<section>
-		Startsida
+		<ProductGrid />
 	</section>
 )
 
